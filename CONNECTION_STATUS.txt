@@ -1,0 +1,3 @@
+Google Sheets connection URL has been inserted into config.js.
+REQUIRE_ONLINE_REPORTING is true.
+Upload the CONTENTS of this folder to the root of the GitHub repository.
