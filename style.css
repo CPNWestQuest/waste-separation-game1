@@ -693,6 +693,15 @@ textarea:focus {
   75% { transform: translateX(6px); }
 }
 
+
+
+/* Make the plastic bottle bin match the size of the other bins */
+.bin-button[data-bin="plastic_bottle"] img {
+  width: auto;
+  max-width: 54%;
+  max-height: 84px;
+}
+
 /* Game 2 */
 .quiz-screen {
   display: grid;
@@ -867,6 +876,11 @@ textarea:focus {
     min-height: 126px;
   }
 
+  .bin-button[data-bin="plastic_bottle"] img {
+    max-width: 52%;
+    max-height: 70px;
+  }
+
   .bin-button img {
     max-height: 92px;
   }
@@ -997,17 +1011,11 @@ textarea:focus {
   .quiz-bins { min-height: 212px; }
 }
 
-/* Final one-point fix: plastic-bottle bin matches the other bin sizes */
-.eight-bins .bin-button[data-bin="plastic_bottle"] img {
-  width: auto;
-  max-width: 56%;
-  max-height: 80px;
-  justify-self: center;
-}
 
-@media (max-height: 760px) {
-  .eight-bins .bin-button[data-bin="plastic_bottle"] img {
-    max-width: 52%;
-    max-height: 68px;
-  }
+/* Keep the plastic-bottle bin artwork visually equal to the others in preview grids */
+.intro-bin-grid div:first-child img,
+.mini-bin-grid div:first-child img {
+  width: auto;
+  max-width: 54%;
+  margin-inline: auto;
 }
