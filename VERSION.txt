@@ -1,4 +1,4 @@
-CentralPeopleGame FINAL BIN SIZE FIX
-- Larger bottom bins during play
-- Larger bin labels
-- Bin area moved upward for easier reading on mobile
+เกม คนเซ็นทรัล
+Version: 2026-07-20-plastic-bin-final
+- เปลี่ยนชื่อถังเป็น ขวดพลาสติก
+- ปรับภาพถังขวดพลาสติกให้เท่าถังอื่น

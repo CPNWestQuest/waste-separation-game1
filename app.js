@@ -4,7 +4,7 @@
   const CONFIG = { correctPoints: 10, wrongPenalty: 5, fallDurationMs: 4800, nextItemDelayMs: 700, questionsPerGame: 10 };
 
   const BINS = {
-    plastic_bottle: { name: "จุดทิ้งขวดพลาสติก", short: "ขวดพลาสติก" },
+    plastic_bottle: { name: "ขวดพลาสติก", short: "ขวดพลาสติก" },
     food: { name: "ขยะเศษอาหาร", short: "เศษอาหาร" },
     glass: { name: "ขยะรีไซเคิล ขวดแก้ว", short: "ขวดแก้ว" },
     cans: { name: "ขยะรีไซเคิล กระป๋อง", short: "กระป๋อง" },

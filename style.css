@@ -996,3 +996,18 @@ textarea:focus {
   .quiz-item-card { width: min(52%, 190px); }
   .quiz-bins { min-height: 212px; }
 }
+
+/* Final one-point fix: plastic-bottle bin matches the other bin sizes */
+.eight-bins .bin-button[data-bin="plastic_bottle"] img {
+  width: auto;
+  max-width: 56%;
+  max-height: 80px;
+  justify-self: center;
+}
+
+@media (max-height: 760px) {
+  .eight-bins .bin-button[data-bin="plastic_bottle"] img {
+    max-width: 52%;
+    max-height: 68px;
+  }
+}
